@@ -6,7 +6,7 @@ resource "azurerm_resource_group" "example" {
 terraform {
   required_providers {
     azurerm = {
-      source = "tfe66.aws.munnep.com/test/azurerm"
+      source = "localterraform.com/test/azurerm"
   #    version = "3.107.0"
     }
   }
